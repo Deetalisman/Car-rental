@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background-color: rgb(247, 242, 236);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(5, 5, 87);
+}
+section{
+    width: 55%;
+    margin: 20px 22%;
+    position: relative;
+}
+.top{
+    width: 350px;
+    height: 430px;
+    background-color:rgb(250, 184, 98);
+    border-radius: 70px;
+    position: relative;
+}
+.down{
+    width: 220px;
+    height: 320px;
+    background-color:rgb(247, 158, 126);
+    margin-top: 5%;
+    float: right;
+    border-radius: 50px;
+    position: relative;
+    margin-right: 0;
+}
+.main{
+    width: 80%;
+    margin: 8% 10%;
+    padding: 40px;
+    position: absolute;
+    top: 10px;
+    background-color: white;
+    border-radius: 30px;
+}
+.main h1{
+     font-family: serif;
+     font-size: 40px;
+}
+form{
+    margin-top:25px ;
+    line-height: 30px;
+}
+#city{
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    border: 1px solid rgb(201, 188, 188);
+    font-size: 16px;
+    color: black;
+}
+td{
+    border: 2px solid rgb(187, 181, 181);
+    width:120px ;
+    padding-left: 10px;
+}
+th{
+    border: 2px solid rgb(199, 186, 186);
+    padding: 10px 5px;
+    width: 280px;
+    height: 30px;
+}
+.form1{
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+#chevron{
+    float: right;
+    margin-right: 14px;
+    margin-top: 7px;
+}
+#calen{
+    float: left;
+    margin-left: 20px;
+    margin-top: 7px;
+}
+td p{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+#check{
+    margin-top: 3%;
+    width: 30px;
+    height: 20px;
+}
+#del{
+    font-size: 18px;
+     font-weight: 500px;
+}
+.feet{
+    margin-top: 2%;
+}
+.feet i{
+    margin-right: 20px;
+}
+.form2{
+    margin-top: 10px;
+}
+.form2 i{
+    margin-right: 8px;
+}
+form a button{
+    margin-top: 20px;
+    width: 100%;
+    height: 90px;
+    font-size: 20px;
+    color: white;
+    background-color:rgb(255, 130, 80);
+    border: 0;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+form  a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.form1r p{
+    margin-left: 10px;
+}
+.form1l p{
+    margin-left: 10px;
+}
+@media screen and (max-width:1180px) {
+    section{
+        width: 70%;
+        margin: 20px 15%;
+    }
+}
+@media screen and (max-width:1000px) {
+    section{
+        width: 80%;
+        margin: 20px 10%;
+    }
+}
+@media screen and (max-width:900px) {
+    section{
+        width: 90%;
+        margin: 20px 10%;
+    }
+}
+@media screen and (max-width:800px) {
+    section{
+        width: 95%;
+        margin: 20px 3%;
+    }
+    form{
+        padding: 10px 0;
+        margin-top: 2%;
+    }
+    .main{
+        width: 85%;
+        margin: 5% 7%;
+        margin-top: 10%;
+        padding: 40px 30px;
+        position: absolute;
+        top: 10px;
+        background-color: white;
+        border-radius: 30px;
+    }
+    .main h1{
+        font-size: 26px;
+    }
+    #del{
+        font-size: 14px;
+        margin-top: 0;
+    }
+    .top{
+        width: 250px;
+        height: 400px;
+    }
+    .down{
+        height: 34s0px;
+    }
+    form a button{
+        height: 70px;
+    }
+    td{
+        width:120px ;
+        padding-left: 0;
+        font-size: 13px;
+    }
+    th{
+        width: 300px;
+        height: 30px;
+        font-size: 14px;
+        padding-left: 0;
+        padding: 5px 0;
+        font-size: 12px;
+    }
+    #chevron{
+        float: right;
+        margin-top: 7px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #calen{
+        float: left;
+        margin-left: 0;
+        margin-top: 7px;
+    }
+    .form1{
+        margin-top: 5%;
+    }
+    td p{
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+}

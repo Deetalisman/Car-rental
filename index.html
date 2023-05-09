@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAGE 1</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/a1f444943a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section>
+        <div class="top"> </div>
+        <div class="down"> </div>
+        <div class="main">
+            <h1>Search for a rental car</h1>
+            <form action="">
+                <label for="">Pick up location</label><br>
+                <input type="text" id="city" placeholder="City,airport,region,district..."><br>
+                <input id="check"   type="checkbox"><label id="del"  for="">Deliver the car somewhere else</label><br>
+                <div class="form1">
+                    <div class="form1r">
+                        <p>Date of pickup</p>
+                        <table cellspacing="10" cellpadding="10">
+                            <thead>
+                                <tr>
+                                    <th id="col"  colspan="2"><i class="fa-regular fa-calendar" id="calen"></i> Sat 26 Mar 2022 <i class="fa-solid fa-chevron-down" id="chevron"></i></th>
+                               </tr>
+                            </thead>
+                            <tbody>
+                                <td><i class="fa-regular fa-calendar" id="calen"></i>10<i class="fa-solid fa-chevron-down" id="chevron"></i></td>
+                                <td>00<i class="fa-solid fa-chevron-down" id="chevron"></i></td>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="form1r">
+                        <p>Date of delivery</p>
+                        <table cellspacing="10" cellpadding="10">
+                            <thead>
+                                <tr>
+                                    <th id="col"  colspan="2"><i class="fa-regular fa-calendar" id="calen"></i>Tue 29 Mar 2022 <i class="fa-solid fa-chevron-down" id="chevron"></i></th>
+                               </tr>
+                            </thead>
+                            <tbody cell-spacing="collapse">
+                                <td><i class="fa-regular fa-calendar" id="calen"></i>10 <i class="fa-solid fa-chevron-down" id="chevron"></i></td>
+                                <td>00<i class="fa-solid fa-chevron-down" id="chevron"></i></td>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="form2">
+                    <i class="fa-solid fa-square-check"></i><label for="" id="del"  >The driver's age between 30 and 65?</label><i class="fa-thin fa-circle-question"></i><br>
+                </div>
+                <div class="feet">  
+                    <p><i class="fa-solid fa-check"></i>No credit card fees</p>
+                   <p><i class="fa-solid fa-check"></i>No change fees</p>
+                   <p><i class="fa-solid fa-check"></i>Price match guarantee</p>
+                </div>
+                <a href="#" id="search"><button>Search</button></a>
+            </form>
+        </div>
+    </section>
+    <script src="./index.js"></script>
+</body>
+</html>
